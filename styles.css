@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.kanban-board {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+  color: #000;
+}
+
+.column {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  border:1px solid #000; /* Add a border around the column */
+}
+
+.column h2 {
+    margin-bottom: 20px;
+}
+
+.add-task {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+.add-task input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.add-task button {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.task {
+    padding: 10px;
+    margin-bottom:20px; 
+}
+<!-- Task Card CSS -->
+<style>
+  .task-card {
+    /* styles for the task card */
+  }
+  .checklist {
+    /* styles for the checklist section */
+  }
+  .subtasks {
+    /* styles for the subtasks list */
+  }
+  .subtasks li {
+    /* styles for each subtask */
+  }
+  .progress {
+    /* styles for the progress section */
+  }
+</style>
